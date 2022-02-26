@@ -16,7 +16,7 @@ def get_filename():
 def speak(text):
 	t2v = pyttsx3.init()
 	voices = t2v.getProperty('voices')
-	t2v.setProperty('voice', voices[1].id)
+	t2v.setProperty('voice', voices[2].id)
 	t2v.say(text)
 	t2v.runAndWait()
 	
